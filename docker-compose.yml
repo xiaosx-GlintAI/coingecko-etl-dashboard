@@ -1,1 +1,13 @@
 # docker-compose.yml
+
+---
+
+## 🛠️ Setup Instructions
+
+### 🔧 1. Clone repo & create virtual env
+
+```bash
+git clone https://github.com/your-username/coingecko-crypto-etl-dashboard.git
+cd coingecko-crypto-etl-dashboard
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt

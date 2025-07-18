@@ -1,2 +1,18 @@
 # requirements.txt
 # This file lists the dependencies for the project.
+# ETL
+requests
+pandas
+psycopg2-binary
+python-dotenv
+
+# Dashboard
+streamlit
+plotly
+
+# Optional visualization
+matplotlib
+
+# Airflow dependencies (pin version for stability)
+apache-airflow==2.7.1
+apache-airflow-providers-postgres
